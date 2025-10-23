@@ -28,11 +28,6 @@ streamlit run app.py
 Notes
 
 - The included dataset `reviews.txt` is large; the code samples the file and synthesizes user/item ids because the original dataset doesn't include explicit user/item identifiers.
-- VADER is used for speed and simplicity. If you want a transformer-based sentiment classifier for higher-quality scores, I can add an optional path that uses Hugging Face models.
+- VADER is used for speed and simplicity. 
 
-Next steps
-
-- Persist trained model to disk and load on subsequent runs.
-- Support real product ids if available and use actual user-item interactions.
-- Add tests and CI for reproducibility.
 # Smart-Product-Recommender
